@@ -12,6 +12,6 @@ class EmailAddressParser
 
   def parse
     emails.delete(',').split
-    emamils.uniq
+    # emamils.uniq
   end
 end
